@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JoyGiverDef>
+    <defName>Drink_Mate</defName>
+    <giverClass>MatesMod.JoyGiver_DrinkMate</giverClass>
+    <baseChance>2.5</baseChance>
+    <thingDefs>
+      <li>Mate</li>
+    </thingDefs>
+    <jobDef>Drink_Mate</jobDef>
+    <desireSit>true</desireSit>
+    <joyKind>Social</joyKind>
+    <requiredCapacities>
+       <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  
+</Defs>

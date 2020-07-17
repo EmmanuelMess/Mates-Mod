@@ -20,7 +20,7 @@
       <growDays>8</growDays>
       <dieIfLeafless>true</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
-      <harvestedThingDef>Cloth</harvestedThingDef>
+      <harvestedThingDef>MateLeaves</harvestedThingDef>
       <harvestYield>10</harvestYield>
       <sowTags>
         <li>Ground</li>

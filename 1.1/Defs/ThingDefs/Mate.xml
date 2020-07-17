@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  <ThingDef Name="VG_DrinksBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+			<Beauty>-6</Beauty>
+			<Mass>0.35</Mass>
+		</statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <tickerType>Rare</tickerType>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <alwaysHaulable>true</alwaysHaulable>
+<rotatable>false</rotatable>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Ingredients" />
+    </comps>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
+	 <chairSearchRadius>50</chairSearchRadius><optimalityOffsetFeedingAnimals>-5</optimalityOffsetFeedingAnimals>
+	  <joyKind>Gluttonous</joyKind>
+<ingestHoldUsesTable>false</ingestHoldUsesTable>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="VG_DrinksBase">
+    <defName>Mate</defName>
+    <label>mate</label>
+    <description>Mate leaves prepared in a small container for drinking. Improves mood, when doing other tasks, or allows to talk to others. Mate use can't produce a dependency.\n\nMates can be produced at a crafting spot without equipment.</description>
+    <graphicData>
+      <texPath>Things/Item/Mate</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <techLevel>Neolithic</techLevel>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+	<stackLimit>75</stackLimit>
+	<statBases>
+	  <MarketValue>8</MarketValue>
+	</statBases>
+      <ingestible>
+         <preferability>NeverForNutrition</preferability>
+        <foodType>Processed</foodType>
+         <joy>0.07</joy>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+     <ingestSound>Ingest_Beer</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <chairSearchRadius>25</chairSearchRadius>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Caffeine</hediffDef>
+          <severity>0.005</severity>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.01</offset>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1100</listOrder>
+      </li>
+    </comps>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+      <workSkill>Cooking</workSkill>
+    </recipeMaker>
+    <costList>
+      <MateLeaves>4</MateLeaves>
+    </costList>
+</ThingDef>
+
+  
+  </Defs>

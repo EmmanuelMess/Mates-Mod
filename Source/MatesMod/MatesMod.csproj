@@ -46,7 +46,8 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Mate_MatesMod.cs" />
+        <Compile Include="JobDriver_DrinkMate.cs" />
+        <Compile Include="JoyGiver_DrinkMate.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
