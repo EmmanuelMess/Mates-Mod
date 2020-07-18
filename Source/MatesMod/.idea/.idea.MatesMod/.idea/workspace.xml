@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="88b9e248-de76-4231-aeae-f194353f0cea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../1.1/Defs/ThingDefs/Mate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../1.1/Defs/ThingDefs/Mate.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1.1/Defs/ThingDefs_Plants/Plants_Cultivated_Farm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../1.1/Defs/ThingDefs_Plants/Plants_Cultivated_Farm.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
         <option value="$PROJECT_DIR$/Mate_MatesMod.cs" />
         <option value="$PROJECT_DIR$/JoyGiver_DrinkMate.cs" />
         <option value="$PROJECT_DIR$/JobDriver_DrinkMate.cs" />
+        <option value="$PROJECT_DIR$/../../1.1/Defs/ThingDefs/Mate.xml" />
       </list>
     </option>
   </component>
