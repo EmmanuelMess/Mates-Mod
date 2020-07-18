@@ -42,8 +42,8 @@
             <chairSearchRadius>25</chairSearchRadius>
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
-                    <hediffDef>Caffeine</hediffDef>
-                    <severity>0.005</severity>
+                    <hediffDef>Caffeine_Mate</hediffDef>
+                    <severity>0.25</severity>
                 </li>
                 <li Class="IngestionOutcomeDoer_OffsetNeed">
                     <need>Rest</need>
