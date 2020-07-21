@@ -11,7 +11,7 @@
             <texPath>Things/Item/Mate</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
         </graphicData>
-        <rotatable>false</rotatable>
+        <rotatable>true</rotatable>
         <techLevel>Neolithic</techLevel>
         <thingCategories>
             <li>Manufactured</li>
@@ -32,6 +32,7 @@
             <nurseable>true</nurseable>
             <drugCategory>Social</drugCategory>
             <ingestSound>Ingest_Beer</ingestSound>
+            <ingestEffectEat>EatVegetarian</ingestEffectEat>
             <ingestHoldOffsetStanding>
                 <northDefault>
                     <offset>(0.18,0,0)</offset>
