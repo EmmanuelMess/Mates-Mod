@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b9e248-de76-4231-aeae-f194353f0cea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MatesMod.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JoyGiver_DrinkMate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JoyGiver_DrinkMate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatesMod.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MatesMod.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +43,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/ff/2ddb82e9/PawnRenderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/89/bb05cae6/ListerThings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/f9/8dfe5992/JobDriver_Ingest.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Mate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/78/38bf5aff/DefDatabase`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/87/95aa6fb7/DamageInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/d2/bffd83a6/Pawn.cs" root0="SKIP_HIGHLIGHTING" />
@@ -146,10 +141,10 @@
       <screen x="0" y="27" width="1360" height="741" />
     </state>
     <state x="451" y="312" width="457" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1360.741@0.27.1360.741" timestamp="1595040334124" />
-    <state x="338" y="136" width="684" height="522" key="find.popup" timestamp="1595037831824">
+    <state x="338" y="136" width="684" height="580" key="find.popup" timestamp="1595446032112">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state x="338" y="136" width="684" height="522" key="find.popup/0.27.1360.741@0.27.1360.741" timestamp="1595037831824" />
+    <state x="338" y="136" width="684" height="580" key="find.popup/0.27.1360.741@0.27.1360.741" timestamp="1595446032112" />
     <state x="343" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1595375272811">
       <screen x="0" y="27" width="1360" height="741" />
     </state>

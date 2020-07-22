@@ -8,8 +8,10 @@ using Verse.AI;
 
 namespace MatesMod {
 
+  // ReSharper disable once UnusedType.Global
+  // ReSharper disable once InconsistentNaming
   public class JoyGiver_DrinkMate : JoyGiver {
-    private static List<CompGatherSpot> workingSpots =
+    private static readonly List<CompGatherSpot> WorkingSpots =
       new List<CompGatherSpot>();
 
     private static readonly int NumRadiusCells =
@@ -25,14 +27,14 @@ namespace MatesMod {
     private static readonly ThingDef MateDef = DefDatabase<ThingDef>.GetNamed("Mate");
 
     public override Job TryGiveJob(Pawn pawn) {
-      MatesMod.Log("TryGiveJob MATE");
+      MatesMod.Log("TryGiveJob");
 
       return TryGiveJobInt(pawn, null);
     }
 
     public override Job TryGiveJobInGatheringArea(Pawn pawn,
       IntVec3 gatheringSpot) {
-      MatesMod.Log("TryGiveJobInGatheringArea MATE");
+      MatesMod.Log("TryGiveJobInGatheringArea");
 
       return TryGiveJobInt(pawn,
         x =>
@@ -43,60 +45,62 @@ namespace MatesMod {
     private Job TryGiveJobInt(Pawn pawn,
       Predicate<CompGatherSpot> gatherSpotValidator) {
       if (pawn.Map.gatherSpotLister.activeSpots.Count == 0) {
-        MatesMod.Log("Mate: pawn.Map.gatherSpotLister.activeSpots.Count == 0");
+        MatesMod.Log("pawn.Map.gatherSpotLister.activeSpots.Count == 0");
         return null;
       }
 
-      workingSpots.Clear();
+      WorkingSpots.Clear();
       foreach (var gatherSpot in pawn.Map.gatherSpotLister.activeSpots) {
-        workingSpots.Add(gatherSpot);
+        WorkingSpots.Add(gatherSpot);
       }
       
-      MatesMod.Log("Mate: workingSpots.Count() = " + workingSpots.Count());
+      MatesMod.Log("workingSpots.Count() = " + WorkingSpots.Count());
 
       CompGatherSpot result1;
-      while (workingSpots.TryRandomElement(out result1)) {
-        workingSpots.Remove(result1);
+      while (WorkingSpots.TryRandomElement(out result1)) {
+        WorkingSpots.Remove(result1);
 
-        if (!result1.parent.IsForbidden(pawn) &&
-            pawn.CanReach((LocalTargetInfo) result1.parent, PathEndMode.Touch, Danger.None) &&
-            (result1.parent.IsSociallyProper(pawn) && result1.parent.IsPoliticallyProper(pawn)) &&
-            (gatherSpotValidator == null || gatherSpotValidator(result1))) {
-          Thing ingestible;
-          if (pawn.health.capacities.CapableOf(PawnCapacityDefOf.Manipulation) &&
-              TryFindIngestibleToNurse(result1.parent.Position, pawn, out ingestible)) {
-            
-            Job job;
-            if (result1.parent.def.surfaceType == SurfaceType.Eat) {
-              Thing chair;
-              if (!TryFindChairBesideTable(result1.parent, pawn, out chair)) {
-                return null;
-              }
+        if (result1.parent.IsForbidden(pawn)
+            || !pawn.CanReach((LocalTargetInfo) result1.parent, PathEndMode.Touch, Danger.None)
+            || (!result1.parent.IsSociallyProper(pawn) || !result1.parent.IsPoliticallyProper(pawn))
+            || (gatherSpotValidator != null && !gatherSpotValidator(result1))) {
+          continue;
+        }
 
-              job = JobMaker.MakeJob(def.jobDef, 
-                (LocalTargetInfo) result1.parent,
-                (LocalTargetInfo) chair);
-            } else {
-              Thing chair;
-              if (TryFindChairNear(result1.parent.Position, pawn, out chair)) {
-                job = JobMaker.MakeJob(
-                  def.jobDef, (LocalTargetInfo) result1.parent, (LocalTargetInfo) chair
-                  );
-              } else {
-                return null;
-              }
-            }
+        if (!pawn.health.capacities.CapableOf(PawnCapacityDefOf.Manipulation)
+            || !TryFindIngestibleToNurse(result1.parent.Position, pawn, out var ingestible)) {
+          continue;
+        }
+        
+        Job job;
+        if (result1.parent.def.surfaceType == SurfaceType.Eat) {
+          if (!TryFindChairBesideTable(result1.parent, pawn, out var chair)) {
+            return null;
+          }
 
-            job.targetC = (LocalTargetInfo) ingestible;
-            job.count = Mathf.Min(ingestible.stackCount,
-              ingestible.def.ingestible.maxNumToIngestAtOnce);
-            
-            MatesMod.Log("Mate: job = " + job);
-            return job;
+          job = JobMaker.MakeJob(def.jobDef, 
+            (LocalTargetInfo) result1.parent,
+            (LocalTargetInfo) chair);
+        } else {
+          if (TryFindChairNear(result1.parent.Position, pawn, out var chair)) {
+            job = JobMaker.MakeJob(
+              def.jobDef, 
+              (LocalTargetInfo) result1.parent, 
+              (LocalTargetInfo) chair
+            );
+          } else {
+            return null;
           }
         }
+
+        job.targetC = (LocalTargetInfo) ingestible;
+        job.count = Mathf.Min(ingestible.stackCount, ingestible.def.ingestible.maxNumToIngestAtOnce);
+            
+        MatesMod.Log("job = " + job);
+        return job;
       }
-      MatesMod.Log("Mate: dead");
+      
+      MatesMod.Log("dead");
       return null;
     }
 
@@ -112,15 +116,14 @@ namespace MatesMod {
         return false;
       }
 
-      List<Thing> thingList = ingester.Map.listerThings.ThingsOfDef(MateDef);
-      MatesMod.Log("Mate: thingList.Count() = " + thingList.Count);
+      var thingList = ingester.Map.listerThings.ThingsOfDef(MateDef);
+      MatesMod.Log("thingList.Count() = " + thingList.Count);
       if (thingList.Count > 0) {
-        Predicate<Thing> validator = t =>
-          ingester.CanReserve((LocalTargetInfo) t) &&
-          !t.IsForbidden(ingester);
+        bool Validator(Thing t) => ingester.CanReserve((LocalTargetInfo) t) && !t.IsForbidden(ingester);
+        
         ingestible = GenClosest.ClosestThing_Global_Reachable(center,
           ingester.Map, thingList, PathEndMode.OnCell,
-          TraverseParms.For(ingester), 40f, validator);
+          TraverseParms.For(ingester), 40f, Validator);
 
         if (ingestible != null) {
           return true;
@@ -133,14 +136,15 @@ namespace MatesMod {
 
     private static bool TryFindChairBesideTable(Thing table, Pawn sitter,
       out Thing chair) {
-      for (int index = 0; index < 30; ++index) {
-        Building edifice =
-          table.RandomAdjacentCellCardinal().GetEdifice(table.Map);
-        if (edifice != null && edifice.def.building.isSittable &&
-            sitter.CanReserve((LocalTargetInfo) edifice)) {
-          chair = edifice;
-          return true;
+      for (var index = 0; index < 30; ++index) {
+        var edifice = table.RandomAdjacentCellCardinal().GetEdifice(table.Map);
+        if (edifice == null
+            || !edifice.def.building.isSittable
+            || !sitter.CanReserve((LocalTargetInfo) edifice)) {
+          continue;
         }
+        chair = edifice;
+        return true;
       }
 
       chair = null;
@@ -150,12 +154,14 @@ namespace MatesMod {
     private static bool TryFindChairNear(IntVec3 center, Pawn sitter, out Thing chair) {
       foreach (var radialPattern in RadialPatternMiddleOutward) {
         Building edifice = (center + radialPattern).GetEdifice(sitter.Map);
-        if (edifice != null && edifice.def.building.isSittable &&
-            (sitter.CanReserve((LocalTargetInfo) edifice) && !edifice.IsForbidden(sitter))
-            && GenSight.LineOfSight(center, edifice.Position, sitter.Map, true)) {
-          chair = edifice;
-          return true;
+        if (edifice == null
+            || !edifice.def.building.isSittable
+            || (!sitter.CanReserve((LocalTargetInfo) edifice) || edifice.IsForbidden(sitter))
+            || !GenSight.LineOfSight(center, edifice.Position, sitter.Map, true)) {
+          continue;
         }
+        chair = edifice;
+        return true;
       }
 
       chair = null;

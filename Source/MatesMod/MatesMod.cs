@@ -4,15 +4,15 @@ using Verse;
 namespace MatesMod {
     [StaticConstructorOnStartup]
     public static class MatesMod {
-        public const bool DEBUG = true;
+        private const bool Debug = true;
         
-        static MatesMod() {
-        }
-
         public static void Log(String msg) {
-            if (!DEBUG) return;
+            // ReSharper disable once ConditionIsAlwaysTrueOrFalse
+#pragma warning disable 162
+            if (!Debug) return;
+#pragma warning restore 162
             
-            Verse.Log.Message(msg);
+            Verse.Log.Message("Mate: " + msg);
         }
     }
 }
