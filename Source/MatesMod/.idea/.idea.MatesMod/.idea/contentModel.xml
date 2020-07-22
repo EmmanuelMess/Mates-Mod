@@ -5,8 +5,8 @@
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_MatesMod.691220016.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$/../../1.1/Assemblies" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
-      <e p="JobDriver_DrinkMate.cs" t="Include" />
       <e p="JoyGiver_DrinkMate.cs" t="Include" />
+      <e p="Mate.cs" t="Include" />
       <e p="MatesMod.csproj" t="IncludeRecursive" />
       <e p="MatesMod.sln" t="IncludeFlat" />
       <e p="Properties" t="Include">

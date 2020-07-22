@@ -44,10 +44,14 @@
           <HintPath>../../../../../Games/RimWorld 1.1.2647/RimWorldWin64_Data/Managed/UnityEngine.dll</HintPath>
           <Private>False</Private>
         </Reference>
+        <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>../../../../../Games/RimWorld 1.1.2647/RimWorldWin64_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="JobDriver_DrinkMate.cs" />
         <Compile Include="JoyGiver_DrinkMate.cs" />
+        <Compile Include="Mate.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
