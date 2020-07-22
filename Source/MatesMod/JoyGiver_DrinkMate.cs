@@ -25,14 +25,14 @@ namespace MatesMod {
     private static readonly ThingDef MateDef = DefDatabase<ThingDef>.GetNamed("Mate");
 
     public override Job TryGiveJob(Pawn pawn) {
-      Log.Message("TryGiveJob MATE");
+      MatesMod.Log("TryGiveJob MATE");
 
       return TryGiveJobInt(pawn, null);
     }
 
     public override Job TryGiveJobInGatheringArea(Pawn pawn,
       IntVec3 gatheringSpot) {
-      Verse.Log.Message("TryGiveJobInGatheringArea MATE");
+      MatesMod.Log("TryGiveJobInGatheringArea MATE");
 
       return TryGiveJobInt(pawn,
         x =>
@@ -43,7 +43,7 @@ namespace MatesMod {
     private Job TryGiveJobInt(Pawn pawn,
       Predicate<CompGatherSpot> gatherSpotValidator) {
       if (pawn.Map.gatherSpotLister.activeSpots.Count == 0) {
-        Verse.Log.Message("Mate: pawn.Map.gatherSpotLister.activeSpots.Count == 0");
+        MatesMod.Log("Mate: pawn.Map.gatherSpotLister.activeSpots.Count == 0");
         return null;
       }
 
@@ -52,7 +52,7 @@ namespace MatesMod {
         workingSpots.Add(gatherSpot);
       }
       
-      Verse.Log.Message("Mate: workingSpots.Count() = " + workingSpots.Count());
+      MatesMod.Log("Mate: workingSpots.Count() = " + workingSpots.Count());
 
       CompGatherSpot result1;
       while (workingSpots.TryRandomElement(out result1)) {
@@ -91,12 +91,12 @@ namespace MatesMod {
             job.count = Mathf.Min(ingestible.stackCount,
               ingestible.def.ingestible.maxNumToIngestAtOnce);
             
-            Verse.Log.Message("Mate: job = " + job);
+            MatesMod.Log("Mate: job = " + job);
             return job;
           }
         }
       }
-      Verse.Log.Message("Mate: dead");
+      MatesMod.Log("Mate: dead");
       return null;
     }
 
@@ -113,7 +113,7 @@ namespace MatesMod {
       }
 
       List<Thing> thingList = ingester.Map.listerThings.ThingsOfDef(MateDef);
-      Verse.Log.Message("Mate: thingList.Count() = " + thingList.Count);
+      MatesMod.Log("Mate: thingList.Count() = " + thingList.Count);
       if (thingList.Count > 0) {
         Predicate<Thing> validator = t =>
           ingester.CanReserve((LocalTargetInfo) t) &&

@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b9e248-de76-4231-aeae-f194353f0cea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MatesMod.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JoyGiver_DrinkMate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JoyGiver_DrinkMate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatesMod.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MatesMod.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +43,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/55/16a4757b/JobDriver_PlayMusicalInstrument.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/8f/d5851de0/Thing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/JoyGiver_DrinkMate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MatesMod.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/ff/2ddb82e9/PawnRenderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/89/bb05cae6/ListerThings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/f9/8dfe5992/JobDriver_Ingest.cs" root0="SKIP_HIGHLIGHTING" />
@@ -81,6 +86,7 @@
         <option value="$PROJECT_DIR$/../../1.1/Defs/ThingDefs/Mate.xml" />
         <option value="$PROJECT_DIR$/Mate.cs" />
         <option value="$PROJECT_DIR$/JobDriver_DrinkMate.cs" />
+        <option value="$PROJECT_DIR$/MatesMod.cs" />
         <option value="$PROJECT_DIR$/JoyGiver_DrinkMate.cs" />
       </list>
     </option>

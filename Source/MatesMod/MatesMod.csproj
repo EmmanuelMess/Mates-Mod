@@ -51,7 +51,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="JoyGiver_DrinkMate.cs" />
-        <Compile Include="Mate.cs" />
+        <Compile Include="MatesMod.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
