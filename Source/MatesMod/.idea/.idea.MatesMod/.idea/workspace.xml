@@ -20,7 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b9e248-de76-4231-aeae-f194353f0cea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/JoyGiver_DrinkMate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JoyGiver_DrinkMate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobDriver_DrinkMate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.1/Defs/ThingDefs/Mate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../1.1/Defs/ThingDefs/Mate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatesMod.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MatesMod.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Raw Assets/Textures/Mate_a.xcf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Things/Item/Mate/Mate_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Things/Item/Mate/Mate_b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Textures/Things/Item/Mate/Mate_c.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Things/Item/Mate/Mate_c.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +53,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/78/38bf5aff/DefDatabase`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/87/95aa6fb7/DamageInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/d2/bffd83a6/Pawn.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JobDriver_DrinkMate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/23/d74703a2/Pawn_DrugPolicyTracker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/cc/c5d03100/JobDriver_PlayHorseshoes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/ba/ac2a855e/StorytellerCompProperties_RefiringUniqueQuest.cs" root0="SKIP_HIGHLIGHTING" />
@@ -80,9 +88,9 @@
         <option value="$PROJECT_DIR$/../../1.1/Defs/HediffDefs/Hediffs_Caffeine.xml" />
         <option value="$PROJECT_DIR$/../../1.1/Defs/ThingDefs/Mate.xml" />
         <option value="$PROJECT_DIR$/Mate.cs" />
-        <option value="$PROJECT_DIR$/JobDriver_DrinkMate.cs" />
-        <option value="$PROJECT_DIR$/MatesMod.cs" />
         <option value="$PROJECT_DIR$/JoyGiver_DrinkMate.cs" />
+        <option value="$PROJECT_DIR$/MatesMod.cs" />
+        <option value="$PROJECT_DIR$/JobDriver_DrinkMate.cs" />
       </list>
     </option>
   </component>

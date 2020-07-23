@@ -50,6 +50,7 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="JobDriver_DrinkMate.cs" />
         <Compile Include="JoyGiver_DrinkMate.cs" />
         <Compile Include="MatesMod.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
