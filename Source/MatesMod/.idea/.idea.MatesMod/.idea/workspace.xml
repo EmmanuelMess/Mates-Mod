@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b9e248-de76-4231-aeae-f194353f0cea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JobDriver_DrinkMate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1.1/Defs/ThingDefs/Mate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../1.1/Defs/ThingDefs/Mate.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatesMod.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MatesMod.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Raw Assets/Textures/Mate_a.xcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Textures/Things/Item/Mate/Mate_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Things/Item/Mate/Mate_b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Textures/Things/Item/Mate/Mate_c.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../Textures/Things/Item/Mate/Mate_c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobDriver_DrinkMate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JobDriver_DrinkMate.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,46 +33,57 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/0a/38a23a05/JobDriver_SocialRelax.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/ae/1f614ce7/GatheringWorker_Party.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/55/16a4757b/JobDriver_PlayMusicalInstrument.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JoyGiver_DrinkMate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/f9/8dfe5992/JobDriver_Ingest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JobDriver_DrinkMate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/cc/c5d03100/JobDriver_PlayHorseshoes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/a4/b67e1b26/LordJob.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/a8/7c89abb8/JobDriver_PlayHoopstone.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/8e/7d30afc9/LordJob_VoluntarilyJoinable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/da/6ab160f5/JobDriver_Meditate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/24/306264c7/LordJob_Joinable_Gathering.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/26/b81918f2/JobDriver_Mate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/19/dc4cd6d5/Assembly-CSharp.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/42/e1d16f08/LordToil_Party.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/92/ce32798d/GatheringsUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/e1/0de0c62d/ReservationUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/e3/4727d4d0/JoyGiver_WatchBuilding.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/3c/3c30b5f9/Toils_Ingest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/7a/38a78ae6/JoyGiver_InteractBuildingSitAdjacent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/e3/6f5e4785/JobDriver_GiveSpeech.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/51/72d24b46/LocomotionUrgency.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/60/4e065567/JobDriver_ManTurret.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A17FA145-7C5D-44F2-885A-C746C1764EA5/df/9a3cae08/Action.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/8f/e40bc878/JobMaker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/4859DB00-009E-472F-9C8A-6CF8FA7FEFF5/ac/51b4e4ed/UnityEngine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/55/16a4757b/JobDriver_PlayMusicalInstrument.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/0e/97642f05/Toil.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/8f/d5851de0/Thing.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/JoyGiver_DrinkMate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MatesMod.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/ff/2ddb82e9/PawnRenderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/89/bb05cae6/ListerThings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/f9/8dfe5992/JobDriver_Ingest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/78/38bf5aff/DefDatabase`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/87/95aa6fb7/DamageInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/d2/bffd83a6/Pawn.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/JobDriver_DrinkMate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/23/d74703a2/Pawn_DrugPolicyTracker.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/cc/c5d03100/JobDriver_PlayHorseshoes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/ba/ac2a855e/StorytellerCompProperties_RefiringUniqueQuest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/33/eb1b4e08/PawnUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/a2/bd764f27/Mouse.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/a8/7c89abb8/JobDriver_PlayHoopstone.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/75/1f73a886/HoldOffset.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/d2/eb907156/JoyGiver_VisitSickPawn.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/da/6ab160f5/JobDriver_Meditate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/14/d610a07a/Rot4.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/08/8fdf539d/JoyGiverDef.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/26/b81918f2/JobDriver_Mate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/45/6468078f/HoldOffsetSet.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/2b/7bcd3326/JoyGiver.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/19/dc4cd6d5/Assembly-CSharp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/3b/7eeb1d79/IngestibleProperties.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/14/2d84f942/JoyGiver_SocialRelax.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/df/3085302b/JoyGiver_PlayBilliards.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/da/5d60dda9/ThingDef.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/95/d403dea8/IThingHolder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/b2/bd28036d/JobDriver.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/e3/4727d4d0/JoyGiver_WatchBuilding.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/b4/2860dddb/RoadPathingDef.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/0f/6b4341a4/JobDriver_PlayBilliards.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/7a/38a78ae6/JoyGiver_InteractBuildingSitAdjacent.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -88,8 +93,8 @@
         <option value="$PROJECT_DIR$/../../1.1/Defs/HediffDefs/Hediffs_Caffeine.xml" />
         <option value="$PROJECT_DIR$/../../1.1/Defs/ThingDefs/Mate.xml" />
         <option value="$PROJECT_DIR$/Mate.cs" />
-        <option value="$PROJECT_DIR$/JoyGiver_DrinkMate.cs" />
         <option value="$PROJECT_DIR$/MatesMod.cs" />
+        <option value="$PROJECT_DIR$/JoyGiver_DrinkMate.cs" />
         <option value="$PROJECT_DIR$/JobDriver_DrinkMate.cs" />
       </list>
     </option>
@@ -153,9 +158,9 @@
       <screen x="0" y="27" width="1360" height="741" />
     </state>
     <state x="338" y="136" width="684" height="580" key="find.popup/0.27.1360.741@0.27.1360.741" timestamp="1595446032112" />
-    <state x="343" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1595375272811">
+    <state x="343" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1595529887291">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state x="343" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1360.741@0.27.1360.741" timestamp="1595375272811" />
+    <state x="343" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1360.741@0.27.1360.741" timestamp="1595529887291" />
   </component>
 </project>

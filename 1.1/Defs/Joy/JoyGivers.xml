@@ -8,7 +8,7 @@
     <thingDefs>
       <li>Mate</li>
     </thingDefs>
-    <jobDef>SocialRelax</jobDef>
+    <jobDef>DrinkMate</jobDef>
     <desireSit>true</desireSit>
     <joyKind>Social</joyKind>
     <requiredCapacities>

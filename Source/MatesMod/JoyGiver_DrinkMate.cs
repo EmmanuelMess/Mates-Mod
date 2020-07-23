@@ -56,8 +56,7 @@ namespace MatesMod {
       
       MatesMod.Log("workingSpots.Count() = " + WorkingSpots.Count());
 
-      CompGatherSpot result1;
-      while (WorkingSpots.TryRandomElement(out result1)) {
+      while (WorkingSpots.TryRandomElement(out var result1)) {
         WorkingSpots.Remove(result1);
 
         if (result1.parent.IsForbidden(pawn)
@@ -94,7 +93,7 @@ namespace MatesMod {
         }
 
         job.targetC = (LocalTargetInfo) ingestible;
-        job.count = Mathf.Min(ingestible.stackCount, ingestible.def.ingestible.maxNumToIngestAtOnce);
+        job.count = 1;
             
         MatesMod.Log("job = " + job);
         return job;

@@ -38,6 +38,7 @@
                     <offset>(0.18,0,0)</offset>
                 </northDefault>
             </ingestHoldOffsetStanding>
+            <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
             <ingestCommandString>Drink {0}</ingestCommandString>
             <ingestReportString>Drinking {0}.</ingestReportString>
             <chairSearchRadius>25</chairSearchRadius>
