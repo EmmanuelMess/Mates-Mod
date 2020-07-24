@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88b9e248-de76-4231-aeae-f194353f0cea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatesMod/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobDriver_DrinkMate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JobDriver_DrinkMate.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +35,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/0a/38a23a05/JobDriver_SocialRelax.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/ae/1f614ce7/GatheringWorker_Party.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/55/16a4757b/JobDriver_PlayMusicalInstrument.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/JoyGiver_DrinkMate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JoyGiver_DrinkMate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/f9/8dfe5992/JobDriver_Ingest.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/JobDriver_DrinkMate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JobDriver_DrinkMate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/cc/c5d03100/JobDriver_PlayHorseshoes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/a4/b67e1b26/LordJob.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9ABBD48F-C1FD-4583-B4B8-3D9E5CE1762A/a8/7c89abb8/JobDriver_PlayHoopstone.cs" root0="SKIP_HIGHLIGHTING" />
@@ -108,7 +108,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.selected.configurable" value="preferences.CSharpInteractiveConfiguration" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -142,14 +142,22 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1595037801632">
+    <state x="342" y="136" width="666" height="529" key="#Attach_to_Unity_Editor" timestamp="1595614706086">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state x="463" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1360.741@0.27.1360.741" timestamp="1595037801632" />
-    <state x="169" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1595443652062">
+    <state x="342" y="136" width="666" height="529" key="#Attach_to_Unity_Editor/0.27.1360.741@0.27.1360.741" timestamp="1595614706086" />
+    <state x="138" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595614623871">
       <screen x="0" y="27" width="1360" height="741" />
     </state>
-    <state x="169" y="31" width="1022" height="737" key="SettingsEditor/0.27.1360.741@0.27.1360.741" timestamp="1595443652062" />
+    <state x="138" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1360.741@0.27.1360.741" timestamp="1595614623871" />
+    <state x="463" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1595614657889">
+      <screen x="0" y="27" width="1360" height="741" />
+    </state>
+    <state x="463" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1360.741@0.27.1360.741" timestamp="1595614657889" />
+    <state x="169" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1595615253940">
+      <screen x="0" y="27" width="1360" height="741" />
+    </state>
+    <state x="169" y="31" width="1022" height="737" key="SettingsEditor/0.27.1360.741@0.27.1360.741" timestamp="1595615253940" />
     <state x="451" y="312" width="457" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595040334124">
       <screen x="0" y="27" width="1360" height="741" />
     </state>

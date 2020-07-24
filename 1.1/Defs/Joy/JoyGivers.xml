@@ -4,7 +4,7 @@
   <JoyGiverDef>
     <defName>Drink_Mate</defName>
     <giverClass>MatesMod.JoyGiver_DrinkMate</giverClass>
-    <baseChance>100</baseChance>
+    <baseChance>2.5</baseChance>
     <thingDefs>
       <li>Mate</li>
     </thingDefs>
